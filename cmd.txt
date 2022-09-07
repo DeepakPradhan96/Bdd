@@ -14,6 +14,10 @@ comand for allure Html report=allure serve C:\Users\deepaak\PycharmProjects\BDDA
 
 comand for allure Html report=  allure serve file location
 
+$ pip install allure-behave
+$ behave -f allure_behave.formatter:AllureFormatter -o %allure_result_folder% ./features
+$ allure serve %allure_result_folder%
+
 
 
 
